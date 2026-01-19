@@ -5,20 +5,18 @@ import TaskFooter from './components/TaskFooter';
 import './App.css';
 
 export default function App() {
-  const [tasks, setTasks] = useState([]);
-  const [filter, setFilter] = useState('all');
-
-  // Load tasks from localStorage on mount
-  useEffect(() => {
+  // Lazy initialization: Load tasks from localStorage immediately on mount
+  const [tasks, setTasks] = useState(() => {
     try {
       const savedTasks = localStorage.getItem('tasks');
-      if (savedTasks) {
-        setTasks(JSON.parse(savedTasks));
-      }
+      return savedTasks ? JSON.parse(savedTasks) : [];
     } catch (error) {
       console.error('Failed to load tasks from localStorage:', error);
+      return [];
     }
-  }, []);
+  });
+  
+  const [filter, setFilter] = useState('all');
 
   // Save tasks to localStorage whenever they change
   useEffect(() => {
