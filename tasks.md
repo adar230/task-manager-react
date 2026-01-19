@@ -163,75 +163,75 @@
 
 ## Phase 6: Test All Features and Polish
 
-- [ ] **6.1** Test "Add Tasks" feature:
-  - [ ] Add task with valid text
-  - [ ] Verify task appears in list
-  - [ ] Test Enter key submission
-  - [ ] Test button click submission
-  - [ ] Verify input clears after submission
-  - [ ] Prevent adding empty tasks
+- [x] **6.1** Test "Add Tasks" feature:
+  - [x] Add task with valid text
+  - [x] Verify task appears in list
+  - [x] Test Enter key submission
+  - [x] Test button click submission
+  - [x] Verify input clears after submission
+  - [x] Prevent adding empty tasks
 
-- [ ] **6.2** Test "Toggle Status" feature:
-  - [ ] Click checkbox to mark task complete
-  - [ ] Verify strikethrough styling applied
-  - [ ] Click again to mark incomplete
-  - [ ] Verify strikethrough removed
-  - [ ] Verify task data is preserved
+- [x] **6.2** Test "Toggle Status" feature:
+  - [x] Click checkbox to mark task complete
+  - [x] Verify strikethrough styling applied
+  - [x] Click again to mark incomplete
+  - [x] Verify strikethrough removed
+  - [x] Verify task data is preserved
 
-- [ ] **6.3** Test "Edit Tasks" feature:
-  - [ ] Click edit button
-  - [ ] Verify edit mode activates
-  - [ ] Modify task description
-  - [ ] Click save
-  - [ ] Verify changes applied
-  - [ ] Test cancel (discard changes)
+- [x] **6.3** Test "Edit Tasks" feature:
+  - [x] Click edit button
+  - [x] Verify edit mode activates
+  - [x] Modify task description
+  - [x] Click save
+  - [x] Verify changes applied
+  - [x] Test cancel (discard changes)
 
-- [ ] **6.4** Test "Delete Tasks" feature:
-  - [ ] Click delete button
-  - [ ] Verify task removed from list
-  - [ ] Verify no errors in console
+- [x] **6.4** Test "Delete Tasks" feature:
+  - [x] Click delete button
+  - [x] Verify task removed from list
+  - [x] Verify no errors in console
 
-- [ ] **6.5** Test "Filtering" feature:
-  - [ ] Click "All" filter → verify all tasks shown
-  - [ ] Click "Active" filter → verify only incomplete tasks shown
-  - [ ] Click "Completed" filter → verify only complete tasks shown
-  - [ ] Verify visual indication of current filter
+- [x] **6.5** Test "Filtering" feature:
+  - [x] Click "All" filter → verify all tasks shown
+  - [x] Click "Active" filter → verify only incomplete tasks shown
+  - [x] Click "Completed" filter → verify only complete tasks shown
+  - [x] Verify visual indication of current filter
 
-- [ ] **6.6** Test "Task Counter" feature:
-  - [ ] Verify counter shows correct active task count
-  - [ ] Add task → counter increments
-  - [ ] Complete task → counter decrements
-  - [ ] Delete task → counter updates
-  - [ ] Clear completed → counter updates
+- [x] **6.6** Test "Task Counter" feature:
+  - [x] Verify counter shows correct active task count
+  - [x] Add task → counter increments
+  - [x] Complete task → counter decrements
+  - [x] Delete task → counter updates
+  - [x] Clear completed → counter updates
 
-- [ ] **6.7** Test "Clear Completed" button:
-  - [ ] Complete several tasks
-  - [ ] Click "Clear Completed"
-  - [ ] Verify all completed tasks removed
-  - [ ] Verify active tasks remain
-  - [ ] Verify button disabled when no completed tasks
+- [x] **6.7** Test "Clear Completed" button:
+  - [x] Complete several tasks
+  - [x] Click "Clear Completed"
+  - [x] Verify all completed tasks removed
+  - [x] Verify active tasks remain
+  - [x] Verify button disabled when no completed tasks
 
-- [ ] **6.8** Test "Persistence" feature:
-  - [ ] Add, edit, delete, toggle tasks
-  - [ ] Refresh page (F5)
-  - [ ] Verify all changes persisted
-  - [ ] Close tab and reopen
-  - [ ] Verify data still there
-  - [ ] Clear localStorage and verify clean state
+- [x] **6.8** Test "Persistence" feature:
+  - [x] Add, edit, delete, toggle tasks
+  - [x] Refresh page (F5)
+  - [x] Verify all changes persisted
+  - [x] Close tab and reopen
+  - [x] Verify data still there
+  - [x] Clear localStorage and verify clean state
 
-- [ ] **6.9** Code quality check:
-  - [ ] Open browser console (F12)
-  - [ ] Verify no errors or warnings
-  - [ ] Verify no console.log statements remain
-  - [ ] Check for any unhandled exceptions
+- [x] **6.9** Code quality check:
+  - [x] Open browser console (F12)
+  - [x] Verify no errors or warnings
+  - [x] Verify no console.log statements remain
+  - [x] Check for any unhandled exceptions
 
-- [ ] **6.10** UI Polish:
-  - [ ] Verify layout is clean and organized
-  - [ ] Check spacing and alignment
-  - [ ] Verify colors are consistent
-  - [ ] Test on mobile devices/responsive view
-  - [ ] Ensure buttons have hover states
-  - [ ] Verify text is readable
+- [x] **6.10** UI Polish:
+  - [x] Verify layout is clean and organized
+  - [x] Check spacing and alignment
+  - [x] Verify colors are consistent
+  - [x] Test on mobile devices/responsive view
+  - [x] Ensure buttons have hover states
+  - [x] Verify text is readable
 
 ---
 
