@@ -120,44 +120,44 @@
 ## Phase 5: Style Components (CSS)
 
 ### App.css
-- [ ] **5.1** Create main container styling:
-  - [ ] Centered layout, max-width constraint
-  - [ ] Padding and margin for spacing
-  - [ ] Background color and overall theme
+- [x] **5.1** Create main container styling:
+  - [x] Centered layout, max-width constraint
+  - [x] Padding and margin for spacing
+  - [x] Background color and overall theme
   
-- [ ] **5.2** Style TaskInput:
-  - [ ] Input field styling (padding, border, font)
-  - [ ] Button styling (background, hover effects)
-  - [ ] Layout (flex row for input + button)
+- [x] **5.2** Style TaskInput:
+  - [x] Input field styling (padding, border, font)
+  - [x] Button styling (background, hover effects)
+  - [x] Layout (flex row for input + button)
   
-- [ ] **5.3** Style TaskList:
-  - [ ] Container styling
-  - [ ] Empty state message styling
+- [x] **5.3** Style TaskList:
+  - [x] Container styling
+  - [x] Empty state message styling
   
-- [ ] **5.4** Style TaskItem:
-  - [ ] Task container with borders/shadow
-  - [ ] Checkbox styling
-  - [ ] Text styling (normal and strikethrough for completed)
-  - [ ] Button styling (edit, delete)
-  - [ ] Edit mode input styling
+- [x] **5.4** Style TaskItem:
+  - [x] Task container with borders/shadow
+  - [x] Checkbox styling
+  - [x] Text styling (normal and strikethrough for completed)
+  - [x] Button styling (edit, delete)
+  - [x] Edit mode input styling
   
-- [ ] **5.5** Style TaskFooter:
-  - [ ] Counter display styling
-  - [ ] Filter buttons styling (normal and active states)
-  - [ ] "Clear Completed" button styling
-  - [ ] Flex layout for buttons
+- [x] **5.5** Style TaskFooter:
+  - [x] Counter display styling
+  - [x] Filter buttons styling (normal and active states)
+  - [x] "Clear Completed" button styling
+  - [x] Flex layout for buttons
 
 ### index.css
-- [ ] **5.6** Global styles:
-  - [ ] CSS reset (margin, padding, box-sizing)
-  - [ ] Font selection and sizing
-  - [ ] Color scheme definition
-  - [ ] Body background and text color
+- [x] **5.6** Global styles:
+  - [x] CSS reset (margin, padding, box-sizing)
+  - [x] Font selection and sizing
+  - [x] Color scheme definition
+  - [x] Body background and text color
 
-- [ ] **5.7** Ensure responsive design:
-  - [ ] Mobile-friendly layout
-  - [ ] Touch-friendly button sizes
-  - [ ] Readable on all screen sizes
+- [x] **5.7** Ensure responsive design:
+  - [x] Mobile-friendly layout
+  - [x] Touch-friendly button sizes
+  - [x] Readable on all screen sizes
 
 ---
 
